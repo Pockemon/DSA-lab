@@ -1,22 +1,22 @@
-// A C Program to demonstrate adjacency list representation of graphs
+// C Program create adjacency list representation of graphs
 
 #include <stdio.h>
 #include <stdlib.h>
 
-// A structure to represent an adjacency list node
+//structure to represent an adjacency list node
 struct AdjListNode
 {
     int dest;
     struct AdjListNode* next;
 };
 
-// A structure to represent an adjacency list
+//structure to represent an adjacency list
 struct AdjList
 {
     struct AdjListNode *head;  // pointer to head node of list
 };
 
-// A structure to represent a graph. A graph is an array of adjacency lists.
+// structure to represent a graph. A graph is an array of adjacency lists.
 // Size of array will be V (number of vertices in graph)
 struct Graph
 {
@@ -79,11 +79,8 @@ void printGraph(struct Graph* graph)
     }
 }
 
-// Driver program to test above functions
 int main()
 {
-    // create the graph given in above fugure
-
     int V,choice,src,dest;
     printf("enter number of vertices\n");
     scanf("%d",&V);
