@@ -1,3 +1,7 @@
+/*
+   HARDIK RANA
+   C program implement binary tree using array 
+*/
 
 #include<stdio.h>
 int a[100];
