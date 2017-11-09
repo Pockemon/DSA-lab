@@ -1,4 +1,8 @@
-/* C program to checks if a binary tree complete ot not */
+/* 
+      HARDIK RANA
+      C program to checks if a binary tree complete ot not 
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
