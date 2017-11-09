@@ -1,3 +1,8 @@
+/*
+   HARDIK RANA
+   C program implement binary tree using linked list
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
