@@ -1,3 +1,8 @@
+/*
+   HARDIK RANA
+   C program to check if a binary tree is full or not
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
