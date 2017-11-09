@@ -1,3 +1,9 @@
+/*
+   HARDIK RANA
+   C program to maximun number of nodes in a binary tree of height h
+*/
+
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
