@@ -1,3 +1,9 @@
+/*
+   HARDIK RANA
+   C program to check if a binary tree is perfect or not
+*/
+
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
