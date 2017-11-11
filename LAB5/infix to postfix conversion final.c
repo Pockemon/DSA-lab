@@ -68,6 +68,7 @@ int main()
     j++;
   }
   postfix[j]='\0';
+  printf("the postfix expression is\n");
   printf("%s",postfix);
   return 0;
 }
