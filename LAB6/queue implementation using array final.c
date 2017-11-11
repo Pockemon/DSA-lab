@@ -1,12 +1,19 @@
+/*
+  HARDIK RANA
+
+  PROGRAM TO IMPLEMENT QUEUE USING ARRAY
+*/
 #include<stdio.h>
 #include<conio.h>
 #define max 50
+
 void insert(int);
 int del();
 void display();
 int queue[max];
 int front=-1;
 int rear=-1;
+
 int main()
 {
   int choice,num;
@@ -39,16 +46,19 @@ int main()
   }
   return 0;
 }
+
+//to insert into queue
 void insert(int element)
 {
     if(rear==max-1)
         printf("queue is full\n");
-    if(front==-1)
+    if(front==-1)  //if queue is empty
         front=0;
     rear=rear+1;
     queue[rear]=element;
 }
 
+//to delete element from queue
 int del()
 {
   int element;
@@ -59,20 +69,22 @@ int del()
   }
   element=queue[front];
   front=front+1;
-  printf("%d has been deleted",element);
+  printf("%d has been deleted\n",element);
   return element;
 }
 
+//to display stack contents
 void display()
 {
  if(front==-1 ||front==rear+1)
- {
+  {
      printf("queue is empty\n");;
      return;
- }
+  }
  int i;
  for(i=front;i<=rear;i++)
- {
-     printf("%d",queue[i]);
- }
+  {
+      printf("%d ",queue[i]);
+  }
+  printf("\n");
 }
