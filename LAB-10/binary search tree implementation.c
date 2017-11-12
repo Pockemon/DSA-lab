@@ -1,3 +1,9 @@
+/*
+ HARDIK RANA 
+ program to implement binary search tree
+ 1]Insert 2]Delete 3]Search the element and print the path  4]Find maximum and minimum 5]print inorder
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
