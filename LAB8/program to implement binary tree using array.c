@@ -77,13 +77,12 @@ void delete(int root)
     }
 }
 
-void main()
+int main()
 {
-    char ch;
     int choice,x;
-    do
+    while(1)
     {
-         printf("Enter 1.to insert 2.to delete 3.to print\n");
+         printf("Enter\n1.to insert\n2.to delete\n3.to print\n4.to exit\n");
          scanf("%d",&choice);
          switch(choice)
          {
@@ -91,19 +90,20 @@ void main()
                         printf("Enter no. to be inserted\n");
                         scanf("%d",&x);
                         insert(x,1);
-              break;
+                         break;
+               
               case 2:
                         delete(1);
-              break;
+                        break;
+               
               case 3:
                         print(1);
                         printf("\n");
-              break;
-              /*case 4:
-              break;*/
+                        break;
+               
+              case 4:
+                       exit(1);
          }
-         printf("Do you want to continue('y' or 'n')?\n");
-         getchar();
-         ch=getchar();
-    }while(ch=='y');
+    }
+   return 0;
 }
