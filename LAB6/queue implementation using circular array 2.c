@@ -1,6 +1,13 @@
-#include<stdio.h>
+/*
+   HARDIK RANA
+   
+   C PROGRAM TO IMPLEMENT QUEUE USING CIRCULAR ARRAY
+*/
 
-int Q[5],front=-1,rear=-1;
+#include<stdio.h>
+#define max 10
+
+int Q[max],front=-1,rear=-1;
 
 void Enqueue(int x)
 {
@@ -11,14 +18,14 @@ void Enqueue(int x)
         Q[rear]=x;
         return ;
     }
-    if((rear+1)%5==front)
+    if((rear+1)%max==front)
     {
         printf("Queue is full\n");
         return ;
     }
     else
     {
-        rear=(rear+1)%5;
+        rear=(rear+1)%max;
         Q[rear]=x;
     }
     return ;
@@ -39,7 +46,7 @@ void Dequeue()
         return ;
     }
     Q[front]=0;
-    front=(front+1)%5;
+    front=(front+1)%max;
     return ;
 }
 
@@ -47,7 +54,7 @@ void Display()
 {
     int i;
     printf("|");
-    for(i=0;i<5;i++)
+    for(i=0;i<10;i++)
         printf(" %d |",Q[i]);
     printf("\n");
 }
