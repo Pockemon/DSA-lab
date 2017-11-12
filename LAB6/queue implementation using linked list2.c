@@ -1,3 +1,10 @@
+/*
+   HARDIK RANA
+
+   C PROGRAM TO IMPLEMENT QUEUE USING LINKED LIST
+   
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 struct node
@@ -43,6 +50,7 @@ int main()
      }
    }
 }
+
 
 void insert(int num)
 {
