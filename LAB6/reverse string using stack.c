@@ -1,3 +1,9 @@
+/*
+   HARDIK RANA
+
+   C PROGRAM TO REVERSE A STRING & TO CHECK IF A STRING IS PALLINDROME OR NOT USING STACK
+*/
+
 #include <stdio.h>
 #include <string.h>
 
@@ -25,7 +31,7 @@ int main()
 
    for(i=0;i<len;i++)
         push(str[i]);
-   printf("the reverses string is\n");
+   printf("the reverseD string is\n");
    for(i=0;i<len;i++)
       revstr[i]=stack[top--];
    c=strcmp(str,revstr);
