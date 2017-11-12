@@ -1,4 +1,8 @@
-//program to check if a given binary tree is bst or not
+/* 
+   HARDIK RANA
+
+    program to check if a given binary tree is bst or not
+*/
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -73,7 +77,7 @@ int main()
          int x,c;
          struct node *temp=NULL,*prev=NULL;
          printf("1]Insert in tree\n2]Check whether BST or not\n3]Exit\n");
-         for(;;)
+         while(1)
          {
              printf("\nEnter your choice:");
              scanf("%d",&c);
