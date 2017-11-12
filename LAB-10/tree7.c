@@ -189,7 +189,7 @@ int main()
     int x,c;
     struct node *root=NULL;
     printf("1]Insert\n2]Delete\n3]Search the element and print the path\n4]Find maximum and minimum\n5]Exit\n");
-    for(;;)
+    while(1)
     {
         printf("\nEnter your choice :");
         scanf("%d",&c);
