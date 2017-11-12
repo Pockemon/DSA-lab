@@ -1,5 +1,13 @@
+/*
+  HARDIK RANA
+  
+  C PROGRAM TO IMPLEMENT QUEUE USING STACK
+
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
+
 void push1(int );
 void push2(int );
 int pop1();
@@ -51,7 +59,8 @@ void create()
 void push1(int data)
 {
     //printf("\nAdded %d to queue\n",data);
-    stack1[++top1]=data;
+    top1++;
+    stack1[top1]=data;
 }
 int pop1()
 {
@@ -60,7 +69,8 @@ int pop1()
 }
 void push2(int data)
 {
-    stack2[++top2]=data;
+    top2++;
+    stack2[top2]=data;
 }
 int pop2()
 {
