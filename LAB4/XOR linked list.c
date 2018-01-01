@@ -1,14 +1,24 @@
+/*
+  HARDIK RANA
+  
+  DSA SEM3-LAB4
+  
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
-struct node {
+struct node 
+{
     int data;
     struct node* npx;
 };
 
-struct node* XOR(struct node *a, struct node *b) {
+struct node* XOR(struct node *a, struct node *b)
+{
     return (struct node*) ((unsigned int) (a) ^ (unsigned int) (b));
 }
-void insert(struct node **head_ref, int data) {
+void insert(struct node **head_ref, int data) 
+{
     struct node *new_node = (struct node *) malloc(sizeof(struct node));
     new_node->data = data;
     new_node->npx = XOR(*head_ref, NULL);
