@@ -1,3 +1,10 @@
+/*
+  HARDIK RANA
+  
+  DSA SEM3-LAB3
+  
+*/
+
 #include<stdio.h>
 #include<conio.h>
 #include<process.h>
