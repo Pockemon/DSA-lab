@@ -1,7 +1,7 @@
 /*
   HARDIK RANA
   
-  DSA SEM3-LAB 5
+  DSA SEM3-LAB 6
   
 */
 
