@@ -1,3 +1,10 @@
+/*
+  HARDIK RANA
+  
+  DSA SEM3-LAB 9
+  
+*/
+
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
