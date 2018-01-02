@@ -1,4 +1,10 @@
 //Cicular Priority Queue
+/*
+  HARDIK RANA
+  
+  DSA SEM3-LAB 7
+  
+*/
 
 #include<stdio.h>
 
