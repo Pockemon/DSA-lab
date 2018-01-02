@@ -1,8 +1,10 @@
-/*HARDIK RANA
-
-  C PROGRAM TO CHECK IF A EXPRESSION IS BALANCED OR NOT USING STACK OPERATION
-
+/*
+  HARDIK RANA
+  
+  DSA SEM3-LAB 5
+  
 */
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
