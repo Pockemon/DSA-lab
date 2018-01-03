@@ -1,3 +1,10 @@
+/*
+  HARDIK RANA
+  
+  DSA SEM3-LAB 12
+  
+*/
+
 #include<stdio.h>
 #define MAX 999999
 #define MIN -999999
