@@ -1,3 +1,10 @@
+/*
+  HARDIK RANA
+  
+  DSA SEM3
+  
+*/
+
 #include<stdio.h>
 
 
