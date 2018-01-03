@@ -1,5 +1,7 @@
 /* 
    HARDIK RANA
+    
+    DSA SEM 3-LAB 10
 
     program to check if a given binary tree is bst or not
 */
