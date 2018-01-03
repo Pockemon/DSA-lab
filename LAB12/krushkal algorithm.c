@@ -1,3 +1,10 @@
+/*
+  HARDIK RANA
+  
+  DSA SEM3-LAB 12
+  
+*/
+
 // krushkal
 #include<stdio.h>
 
