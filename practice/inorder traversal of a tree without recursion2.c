@@ -1,3 +1,10 @@
+/*
+  HARDIK RANA
+  
+  DSA SEM3
+  
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #define bool int
