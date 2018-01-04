@@ -1,7 +1,9 @@
 /*
     HARDIK RANA
+    
+    DSA SEM 3-LAB 11
 
-	Depth First Search using Adjacency List-Iterative
+    Depth First Search using Adjacency List-Iterative
 */
 #include<stdio.h>
 #include<stdlib.h>
